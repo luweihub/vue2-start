@@ -1,0 +1,4 @@
+{
+  //插件的映射，集合
+  "presets": ["@babel/preset-env"]
+}
