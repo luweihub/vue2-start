@@ -1,5 +1,8 @@
-export const a = 100;
+import { initMixin } from "./init";
 
-export default {
-  a: 1,
-};
+function Vue(options) {
+  // console.log(100);
+  this._init(options);
+}
+initMixin(Vue);
+export default Vue;
